@@ -1,0 +1,18 @@
+# difine css and js files
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+# global-js:
+#   js:
+#     js/main.js: {} 
+# dependencies:
+#   - core/jquery
+
+regions:
+  header: Header
+  content: Content
+  stylesheets: 
+    all:
+      - css/style.css
